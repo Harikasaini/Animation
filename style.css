@@ -1,0 +1,16 @@
+#container{
+    animation-name: water;
+    animation-duration:4s;
+    transition: delay 1s;
+    animation-iteration-count: infinite;
+}
+
+#dro_pic{
+    height:300px;
+    width:300px;
+    rotate: y 30deg;
+}
+@keyframes water{
+    form{rotate:y 30deg;}
+    to{rotate: 1 3 2 180deg;}
+}
